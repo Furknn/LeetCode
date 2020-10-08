@@ -4,8 +4,7 @@ class Solution {
     
         for(int i=0; i < s.length(); i++)
         {
-        strArr[indices[i]] = s.charAt(i);
-        
+            strArr[indices[i]] = s.charAt(i);        
         }  
     
         return String.valueOf(strArr);
